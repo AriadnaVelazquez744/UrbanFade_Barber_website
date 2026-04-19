@@ -1,8 +1,30 @@
 import { useState } from "react";
 import { Menu, X, MapPin, Phone, Clock, Star } from "lucide-react";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "../components/ui/dialog";
+import { Button } from "../components/ui/button";
+import { Input } from "../components/ui/input";
+import { Label } from "../components/ui/label";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select";
+import { Textarea } from "../components/ui/textarea";
 
 export default function Index() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isBookingOpen, setIsBookingOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    service: '',
+    date: '',
+    time: '',
+    notes: ''
+  });
 
   const scrollToSection = (id: string) => {
     setIsMenuOpen(false);
@@ -438,7 +460,7 @@ export default function Index() {
           </div>
 
           <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-            <p>© 2024 UrbanFade Barber. All rights reserved.</p>
+            <p> 2024 UrbanFade Barber. All rights reserved.</p>
           </div>
         </div>
       </footer>
