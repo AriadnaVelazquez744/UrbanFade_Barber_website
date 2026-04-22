@@ -160,49 +160,34 @@ export default function Index() {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
             {[
               {
-                src: "https://images.pexels.com/photos/5584461/pexels-photo-5584461.jpeg",
-                alt: "Professional barber trimming client's hair with precision",
+                src: "/images/barber_working.jpg",
+                alt: "Professional barber cutting client's hair with clippers",
                 title: "Precision Cut",
               },
               {
-                src: "https://images.pexels.com/photos/13809242/pexels-photo-13809242.jpeg",
-                alt: "Professional barber tools and equipment",
+                src: "/images/barber_tools.jpg",
+                alt: "Barber tools including scissors and comb on wooden surface",
                 title: "Premium Tools",
               },
               {
-                src: "https://images.pexels.com/photos/28686810/pexels-photo-28686810.jpeg",
-                alt: "Stylish man with fresh haircut",
+                src: "/images/heircutt1.jpeg",
+                alt: "Man with stylish haircut and fade",
                 title: "Modern Fade",
               },
               {
-                src: "https://images.pexels.com/photos/27165073/pexels-photo-27165073.jpeg",
-                alt: "Contemporary barber shop interior",
+                src: "/images/barber_salon.jpg",
+                alt: "Modern barber shop interior with chairs and mirror",
                 title: "Our Space",
               },
               {
-                src: "https://images.pexels.com/photos/27243814/pexels-photo-27243814.jpeg",
-                alt: "Confident man with professional haircut",
+                src: "/images/haircutt2.jpg",
+                alt: "Man showing off his fresh haircut with confidence",
                 title: "Client Result",
               },
               {
-                src: "https://images.pexels.com/photos/13809247/pexels-photo-13809247.jpeg",
-                alt: "Professional barber scissors in leather case",
+                src: "/images/shaving_machine.jpeg",
+                alt: "Electric razor and grooming tools",
                 title: "Craftsmanship",
-              },
-              {
-                src: "https://images.pexels.com/photos/5584461/pexels-photo-5584461.jpeg",
-                alt: "Expert barber service",
-                title: "Expert Hands",
-              },
-              {
-                src: "https://images.pexels.com/photos/13809242/pexels-photo-13809242.jpeg",
-                alt: "Barber workstation with professional tools",
-                title: "Attention Detail",
-              },
-              {
-                src: "https://images.pexels.com/photos/28686810/pexels-photo-28686810.jpeg",
-                alt: "Man showing off fresh barber cut",
-                title: "Perfect Finish",
               },
             ].map((image, idx) => (
               <div
